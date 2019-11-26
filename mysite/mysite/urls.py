@@ -3,6 +3,7 @@ from django.urls import path
 from django.contrib import admin
 
 urlpatterns = [
-    path(r'^polls/', include('polls.urls')),
-    path(r'^admin/', admin.site.urls),
+    path('api/', include('api.urls')),
+    path(r'polls/', include('polls.urls')),
+    path(r'admin/', admin.site.urls),
 ]
