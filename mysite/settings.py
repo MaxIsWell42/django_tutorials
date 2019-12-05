@@ -25,7 +25,7 @@ SECRET_KEY = '4w&@=p*o7eg54&bu7y1(r9t#i0lli)1og0&$#$n*b9(2r$v=te'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'maxf-django-pollsapp.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['localhost', 'maxf-django-pollsapp.herokuapp.com']
 
 
 # Application definition
